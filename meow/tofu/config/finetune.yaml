@@ -1,0 +1,17 @@
+model_family: llama2-7b
+
+LoRA:
+  r: 0
+  alpha: 32
+  dropout: 0.05
+
+data_path: locuslab/TOFU
+split: retain95
+batch_size: 4
+gradient_accumulation_steps: 4
+num_epochs: 5
+lr: 1e-5
+save_dir: PATH To Save Model/retain_models/${num_epochs}_lr${lr}_${model_family}_${split}_wd${weight_decay}
+
+weight_decay: 0.01
+seed: 42
