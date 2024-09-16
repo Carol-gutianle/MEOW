@@ -1,12 +1,12 @@
 # MEOW
-This is the official implementation of the paper "MEOW: Memory Enhanced LLM Unlearning via inverted facts"
+This is the official implementation of the paper "MEOW: Memory Supervised LLM Unlearning via inverted facts"
 
 ![Overflow of MEOW](./assets/overflow.png)
 
 ## Step1: Invert Facts
 You can use inverted facts to ToFU-1%, ToFU-5%, and ToFU-10% provided in `./data/tofu/generated_data`, or run `python -m data.invert` to generate new inverted facts, and in `./data/convert.py`, we provide some implementation for data preprocessing for your reference.
 
-## Step2: Memory Enhanced
+## Step2: Memory Supervised
 Under the folder `memo`, we provide three methods for quantifying the memorization in LLMs, called MA, EL and MEMO (proposed in our paper). 
 After run one of them, you can get data with memo in `./data/tofu/memo_data`. Similar to the `Invert Facts` step, you can use provided memo data.
 
