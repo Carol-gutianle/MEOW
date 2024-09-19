@@ -50,4 +50,13 @@ We implement a robot to remind you of the completion of experiments based on Fei
 
 ## Cite Us
 ```
+@misc{gu2024meowmemorysupervisedllm,
+      title={MEOW: MEMOry Supervised LLM Unlearning Via Inverted Facts}, 
+      author={Tianle Gu and Kexin Huang and Ruilin Luo and Yuanqi Yao and Yujiu Yang and Yan Teng and Yingchun Wang},
+      year={2024},
+      eprint={2409.11844},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2409.11844}, 
+}
 ```
