@@ -1,9 +1,9 @@
-root_path: 
-method_name: 
+root_path: ~/MEOW/meow/tofu
+method_name: meow
 
 data_set: forget01
-model_path:  
-tokenizer_path: 
+model_path:  {Unlearned Model}
+tokenizer_path: {Tokenizer of Unlearned Model or Original Model}
 model_family: phi
 
 unlearn: False

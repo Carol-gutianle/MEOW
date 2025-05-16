@@ -260,7 +260,6 @@ class ToFUTrainerForgetting(Trainer):
             loss = outputs.loss
             
         elif self.loss_type == 'meow_grad_diff':
-            # 取均值
             lose_inputs, win_inputs = inputs
             lose_input_ids, lose_labels, lose_attn_mask = lose_inputs
             outputs = model(lose_input_ids, labels=lose_labels, attention_mask=lose_attn_mask)

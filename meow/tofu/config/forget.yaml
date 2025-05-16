@@ -1,5 +1,6 @@
 model_family: llama2-7b
-model_path: PATH to origin model
+model_path: tofu_ft_llama2-7b # Path to original model, you can download it from https://huggingface.co/locuslab/tofu_ft_llama2-7b
+
 LoRA:
   r: 0
   alpha: 32
@@ -8,10 +9,10 @@ LoRA:
 lr: 1e-5
 split: forget05
 data_path: locuslab/TOFU
-batch_size: 4
-gradient_accumulation_steps: 4
-num_epochs: 10
-forget_loss: grad_diff
+batch_size: 2
+gradient_accumulation_steps: 2
+num_epochs: 20
+forget_loss: meow_memo
 method_name: ${forget_loss}
 
 save_dir: ${model_path}/${forget_loss}_${lr}_${split}_${num_epochs}
