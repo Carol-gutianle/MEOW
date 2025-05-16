@@ -48,6 +48,8 @@ python -m evaluate.nlg --metric all \
 ## Additional Features
 We implement a robot to remind you of the completion of experiments based on Feishu in `./meow/message.py`. You can just remove them from codes if you don't need it. 😉
 
+## Access to Unlearned Models
+Please email gtl23@mails.tsinghua.edu.cn and specify which model you would like to access.
 
 ## Cite Us
 ```
